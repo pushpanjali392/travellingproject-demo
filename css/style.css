@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+}
+.cmn-gap{
+    padding: 70px 0px;
+}
+.cmn-h2{
+    font-size: 40px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: black;
+}
+.cmn-btn{
+    padding: 8px 30px;
+    background-color: rgb(37, 118, 185);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:1440px) {
+    .container{
+       max-width: 1140px;
+       width: 100%;
+       margin: auto;
+       padding: 0px 15px;
+    }
+}
+/* *nav responsive */
+.nav-bar-btn{
+    display: none;
+}
+.nav-bar-btn{
+    color: white;
+    font-size: 25px;
+}
+.nav-main-show{
+    display: none;
+}
+.nav-child-show li{
+    display: block;
+}
+.nav-child-show a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.nav-main-show{
+    display: none;
+    background-color: rgb(255, 255, 255)!important;
+    text-align: end!important;
+    padding: 10px!important;
+}
+
+@media (max-width:992px) and (min-width:0px) {
+    .child-nav-bar1{
+        display: none;
+    }
+    .nav-bar-btn{
+        display: block;
+    }
+    .main-nav-bar{
+
+    }
+    /* .nav-main-show{
+        display: flex!important;
+        justify-content: end!important;
+    } */
+    .nav-child-show{
+        display: block!important;
+    }
+   
+}
+
+.child-nav-bar h2{
+    color: rgb(145, 255, 90);
+    font-family: "Kanit", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.child-nav-bar a{
+    text-decoration: none;
+}
+.child-nav-bar span{
+    color: rgba(105, 242, 247, 0.735);
+}
+.main-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 53px;
+    padding:20px 40px 20px 40px;
+}
+.banner-nav{
+    width: 100%;
+    min-height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../image/banner\ img1\ .jpeg");
+}
+
+.child-nav-bar1 li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+      font-family: "Fira Sans Condensed", sans-serif;
+}
+.child-nav-bar1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+/* .nabbar */
+.main-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+.child-banner{
+    color: white;
+}
+.child-banner h1{
+    font-size: 80px;
+    font-family: "Kanit", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+/* *about sec */
+.child-about img{
+   width: 100%;
+   transition: transform 0.2s ease-out
+}
+.child-about img:hover{
+    transform: scale(1.1);
+}
+.child-about p{
+    font-family: "Fira Sans Condensed", sans-serif;
+    line-height: 35px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.child-about{
+    text-align: center;
+}
+.child-about h2{
+    padding-top: 50px;
+}
+
+/* *spot */
+.child-spot img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    /* transition: transform 1s ease-in ease-in-out; */
+}
+.child-spot{
+    min-height: 400px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 8px grey;
+    width: 100%;
+   padding: 10px 10px;
+   min-height: 400px;
+   border-radius: 5px;
+    transition: transform 0.1s ease-out
+}
+.child-spot:hover{
+    transform: scale(1.1);
+}
+.main-expo{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .child-expo li{
+    display: inline;
+    padding-left: 60px;
+    line-height: 35px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+.child-expo a{
+    text-decoration: none;
+    color: black;
+} */
+.child-spot h3{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+}
+.child-expo h2{
+    padding-bottom: 20px;
+}
+.child-spot i{
+    color: gold;
+    font-size: 12px;
+}
+.child-spot .btn{
+    padding: 5px 30px;
+    background-color: rgb(47, 208, 47);
+    margin-left: 155px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.child-spot p{
+    font-size: 14px;
+    line-height: 35px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+
+
+/* *rating-sec */
+.child-rating{
+    border: 2px solid rgb(181, 176, 176);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.child-rating h2{
+    margin-top: 50px!important;
+    color: orange;
+    font-size: 40px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+.child-rating h3{
+    font-size: 20px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+
+/* *card-section */
+.child-card img{
+    width: 100%!important;
+    height: 350px!important;
+    box-shadow: 5px 5px 5px grey;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: transform .1s ease-in;
+}
+.child-card img:hover{
+    transform: scale(1.1);
+}
+.child-card-box{
+    width: 100%!important;
+    height: 350px!important;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.main-card h2{
+    padding-bottom: 30px;
+}
+.child-card{
+    padding-bottom: 30px;
+}
+
+
+
+/* *testimonals */
+.main-test{
+    text-align: center;
+    padding: 70px 0px;
+}
+.main-test h3{
+    font-size: 15px;
+}
+.main-test h3{
+    color: grey;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.child-test{
+    padding: 20px 0px;
+    text-align: center;
+}
+.child-test p{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 20px; 
+}
+.child-test i{
+    font-size: 40px;
+    color: rgb(41, 41, 189);
+}
+
+
+
+/* *swipper */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+  }
+  .swiper-wrapper{
+    display: flex;
+  }
+.swiper  h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+/* *form-section */
+.main-form{
+   text-align: center;
+   padding: 80px 0px;
+}
+.child-form{
+    width: 100%;
+}
+.box{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 5px;
+   color: rgb(0, 0, 0);
+}
+.box-ad{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+.form-btn{
+    padding: 8px 40px;
+    background-color: rgb(37, 118, 185);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+/* *footer section */
+.footer{
+ background-image: url("../image/footer\ img1.jpeg");
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+.main-footer{
+    padding: 80px 0px;
+}
+.logo h2{
+    color: rgb(145, 255, 90);
+    font-family: "Kanit", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.logo span{
+    color: rgba(105, 242, 247, 0.735);
+}
+.child-footer a{
+    text-decoration: none;
+    color: rgb(27, 27, 81);
+}
+
+.child-footer p{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(27, 27, 81);
+}
+.child-footer i{
+    color: red;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.child-footer .top{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.child-footer li{
+    display: block;
+    font-size: 18px;
+    color: rgb(252, 252, 252);
+   line-height: 45px;
+}
+.child-footer{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* *copyright */
+.copyright{
+    min-height: 50px;
+}
+.main-copy{
+    display: flex;
+    justify-content: center;
+    align-items: center!important;
+    height: 50px;
+}

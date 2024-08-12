@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelling</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gideon+Roman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luxurious+Roman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gideon+Roman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luxurious+Roman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    
+    <header class="banner-nav">
+        <div class="main-nav-bar">
+            <div class="child-nav-bar">
+               <a href=""> <h2><span>Tr</span>avel <span>Tr</span>ibe</h2></a>
+            </div>
+
+            <div class="child-nav-bar1">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Tour</a></li>
+                    <li><a href="">Place</a></li>
+                    <li><a href="">gallery</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+                   </ul>
+                 
+            </div>
+
+            <div class="child-nav-bar1">
+                <a class="cmn-btn" href="">Register</a>
+            </div>
+
+        
+            <div class="nav-bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+      <div class="nav-main-show">
+        <div class="nav-child-show">
+            <!-- <a href=""> <h2><span>Tr</span>avel <span>Tr</span>ibe</h2></a> -->
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Tour</a></li>
+                <li><a href="">Place</a></li>
+                <li><a href="">gallery</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+               </ul>
+               <a class="cmn-btn" href="">Register</a>
+        </div>
+      </div>
+
+        <!-- *banner -->
+      <div class="banner">
+        <div class="container">
+            <div class="main-banner">
+                <div class="child-banner">
+                    <h1>We create <br> the trip you love!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $(".nav-bar-btn").click(function(){
+                $(".nav-main-show").toggle();
+            });
+        });
+    </script>
+</header>
+ 
+
+
+
+
+
+<!-- *about-sec -->
+
+<section class="about-sec cmn-gap">
+    <div class="container">
+        <div class="main-about">
+            <div class="row">
+                
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="child-about">
+                        <img src="image/png3.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="child-about">
+                        <h2 class="cmn-h2">About us</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste tempore est deserunt laudantium fugiat amet accusantium repellat ullam eveniet delectus, ex rerum hic eum nemo vel dolores magni maiores ea quis aliquid veritatis minima cumque earum. Optio molestiae itaque atque.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci explicabo animi minus voluptates at dignissimos, odio recusandae quaerat officiis. Atque nemo quas quod eius quos animi cumque nisi necessitatibus laborum!</p>
+                        <a class="cmn-btn" href="">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- *spot-sec -->
+
+<section class="spot-sec">
+    <div class="container">
+
+        <div class="main-expo">
+            <div class="child-expo">
+                <h2 class="cmn-h2">Explore places</h2>
+            </div>
+            <!-- <div class="child-expo">
+                <ul>
+                    <li><a href="">Beach</a></li>
+                    <li><a href="">Mountain</a></li>
+                    <li><a href="">Waterfall</a></li>
+                    <li><a href="">Holly places</a></li>
+                    <li><a href="">etccc</a></li>
+                </ul>
+            </div> -->
+        </div>
+
+        <div class="main-spot">
+          
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-spot">
+                       <img src="image/goa.jpeg" alt="">
+                        <h3>Goa</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <div class="price">
+                            <span>700 $</span>
+                            <a class="btn"href="">Visit</a>
+                        </div>
+                        <p>Goa is famous for its beautiful beaches, lively nightlife, rich culture, and  heritage.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-spot">
+                        <img src="image/Bali.jpeg" alt="">
+                        <h3>Bali</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                       
+                        <div class="price">
+                            <span>700 $</span>
+                            <a class="btn"href="">Visit</a>
+                        </div>
+                        <p>Bali: tropical paradise, beaches, temples, culture, surf, yoga, scenic landscapes.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-spot">
+                        <img src="image/maldivise.jpeg" alt="">
+                        <h3>Maldives</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <div class="price">
+                            <span>400 $</span>
+                            <a class="btn"href="">Visit</a>
+                        </div>
+                        <p>Maldives: turquoise waters, luxury resorts, coral reefs, overwater villas, serene paradise.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-spot">
+                        <img src="image/manali.jpeg" alt="">
+                        <h3>Manali</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <div class="price">
+                            <span>600 $</span>
+                            <a class="btn"href="">Visit</a>
+                        </div>
+                        <p>Manali: mountains, adventure, snow, serene valleys, trekking, rivers, scenic beauty.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-spot">
+                        <img src="image/himachal.jpeg" alt="">
+                        <h3>Himachal</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <div class="price">
+                            <span>300 $</span>
+                            <a class="btn"href="">Visit</a>
+                        </div>
+                        <p>Himachal: mountains, valleys, adventure, spirituality, snow, trekking, hill stations.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-spot">
+                        <img src="image/paris.jpeg" alt="">
+                        <h3>Paris</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <div class="price">
+                            <span>800 $</span>
+                            <a class="btn"href="">Visit</a>
+                        </div>
+                        <p>Paris: iconic landmarks, art, romance, fashion, history, stunning architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- *ṛating-sec -->
+
+<section class="rating-sec cmn-gap">
+    <div class="container">
+        <div class="main-rating">
+            <div class="row">
+                <div class="col-lg-3  col-md-4 col-sm-6 col-6">
+                    <div class="child-rating">
+                        <h2>24+</h2>
+                        <h3>Cities</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 col-6">
+                    <div class="child-rating">
+                       <h2>700+</h2>
+                        <h3>Places</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 col-6">
+                    <div class="child-rating">
+                       <h2>200+</h2>
+                        <h3>Hotel</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 col-6">
+                    <div class="child-rating">
+                      <h2>2k+</h2>
+                        <h3>Reviews</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- *card section -->
+
+<section class="card-sec">
+    <div class="container">
+        <div class="main-card">
+            <h2 class="cmn-h2">Our Gallery</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                        <img src="image/card img1.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                        <img src="image/card img 4.jpeg" alt="">
+ 
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                        <img src="image/card img2.jpeg" alt="">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                       <img src="image/card img8.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                        <img src="image/card img3.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                       <img src="image/card img6.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                        <img src="image/card img7.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                      <img src="image/card img9.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="child-card">
+                        <img src="image/card img5.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- testimonals -->
+<section class="testimonal cmn-gap">
+    <div class="container">
+        <div class="main-test">
+            <h2 class="cmn-h2">TESTIMONALS</h2>
+        <h3>WHAT OUR CUMSTOMER SAYS ABOUT US</h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-test">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequatur assumenda rem architecto hic ullam eos, quam aspernatur doloremque ducimus !</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-test">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequatur assumenda rem architecto hic ullam eos, quam aspernatur doloremque ducimus!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="child-test">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequatur assumenda rem architecto hic ullam eos, quam aspernatur doloremque ducimus  !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- testimonals -->
+
+
+
+
+
+<!-- *swipper -->
+<section class="swipper-sec cmn-gap">
+<div class="swiper mySwiper">
+    <h2 class="cmn-h2">Our gallery</h2>
+    <div class="swiper-wrapper">
+       
+      <div class="swiper-slide">
+       <img src="image/card img1.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img2.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img3.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img 4.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img5.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img6.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img7.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img8.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img10.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img11.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img12.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img13.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img14.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img15.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img16.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img17.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img18.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img19.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/card img20.jpeg" alt="">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "3",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 5,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+
+
+
+
+<!-- *form-section -->
+ <section class="form-sec">
+    <div class="main-form">
+        <div class="container">
+
+            <div class="child-form">
+                   <form name="form" action="" onsubmit="return validateForm() " method="post">
+
+                    <input class="box" type="text" placeholder="Name" name="myname"> <br><br>
+
+                    <input class="box-ad" type="text" placeholder="Address" name="address"> <br><br>
+
+                    <input class="box" type="datetime-local" name="date" id=""> <br> <br>
+                     
+                    <input class="box" type="email" placeholder="Email" name="email"> <br><br>
+
+                    <input class="form-btn" type="submit" value="Register">
+                  </form>
+                  
+                    <script>
+                      function validateForm() {
+                        let x = document.forms["form"]["myname"].value;
+                        if (x == "") {
+                          alert("fill the name");
+                          return false;
+                        }
+
+                        let y = document.forms["form"]["address"].value;
+                        if (y == "") {
+                          alert("fill the address");
+                          return false;
+                        }
+
+                        let z = document.forms["form"]["date"].value;
+                        if (z == "") {
+                          alert("fill your visiting date");
+                          return false;
+                        }
+                      }
+                    </script>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="main-footer">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="child-footer">
+                        <a class="logo" href=""> <h2><span>Tr</span>avel <span>Tr</span>ibe</h2></a>
+
+                        <p>Lorem Ipsum Dolor Sit  
+                            Amet, Consecteture
+                            Adipiscing Elit. 
+                            Vestibulum.</p>
+                           <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                           <a href="https://x.com/?lang=en"> <i class="fa-brands fa-twitter"></i></a>
+                           <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="child-footer">
+                       <span class="top">Top destination</span>
+                        <ul>
+                            <li><a href="">U.S.A</a></li>
+                            <li><a href="">Paris</a></li>
+                            <li><a href="">Dubai</a></li>
+                            <li><a href="">Vietnam</a></li>
+                            <li><a href="">Thailand</a></li>
+                            <li><a href="">Malasiya</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="child-footer">
+                       <span class="top">Bucket List</span>
+                        <ul>
+                            <li><a href="">Top 10 Animal</a></li>
+                            <li><a href="">Top 10 Festival</a></li>
+                            <li><a href="">Top 10 Adventure</a></li>
+                            <li><a href="">Top 10 Places</a></li>
+                            <li><a href="">Top 10 Festival</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="child-footer">
+                        <span class="top">Help Center</span>
+                        <ul>
+                         <li><a href="">FAQ</a></li>
+                         <li><a href="">Customar service</a></li>
+                         <li><a href="">Adventure</a></li>
+                         <li><a href="">Places</a></li>
+                         <li><a href="">Festival</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <hr>
+    <div class="copyright">
+        <div class="main-copy">
+            <div class="child-div">
+               <p>hgffffffffffffffffffff</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
